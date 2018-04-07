@@ -6,15 +6,34 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <!-- Stylesheet -->
+    <link id="stylesheetImport" href="">
+
+    <!-- fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+
     <!-- bootstrap jquery import -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
 </head>
+
 <body>
 
-</div>
+<nav class="navbar navbar-default">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a href="abreeze12345.github.io" class="navbar-brand brand"></a>
+        </div>
+    </div>
+</nav>
+
+
+<!-- Javascript stuff -->
+<script>
+    document.getElementById("stylesheetImport").setAttribute('href', document.location.host + '/style.css');
+</script>
 
 </body>
 </html>
