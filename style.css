@@ -1,23 +1,35 @@
+.row {
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
+h3 {
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
 body {
     font-family: 'Do Hyeon', sans-serif;
 }
 
+
+/* Disable Link Decoration */
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+}
+
 /* NavBar */
 
-@media only screen and (max-width: 490px) {
-    .showing-sm {
-        display: none;
-    }
-}
-@media only screen and (min-width: 491px) {
-    .hidden-sm {
+@media only screen and (max-width: 856px) {
+    .hidden {
         display: none;
     }
 }
 
 .brand {
-    font-family: 'Do Hyeon', sans-serif;
-    font-size: 50px;
+    font-family: 'Press Start 2P', cursive !important;
+    font-size: 50px !important;
     color: #000000;
 }
 
@@ -25,6 +37,10 @@ body {
     padding-top: 5px;
     padding-bottom: 5px;
     background-color: #1f7c16;
+}
+
+.navbar-section a:hover {
+    color: white;
 }
 
 
@@ -40,4 +56,17 @@ body {
 }
 .header-section h3 {
     color: #1f7c16;
+}
+
+/* Profile */
+.profile-section {
+    background-color: #1f7c16;
+    padding-bottom:30px;
+    padding-top:30px;
+}
+
+.profile-section img {
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
 }
