@@ -1,9 +1,43 @@
-.brand {
-    font-family: 'Press Start 2P', cursive;
-    font-size = large;
+body {
+    font-family: 'Do Hyeon', sans-serif;
 }
 
+/* NavBar */
+
+@media only screen and (max-width: 490px) {
+    .showing-sm {
+        display: none;
+    }
+}
+@media only screen and (min-width: 491px) {
+    .hidden-sm {
+        display: none;
+    }
+}
+
+.brand {
+    font-family: 'Do Hyeon', sans-serif;
+    font-size: 50px;
+    color: #000000;
+}
+
+.navbar-section {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #1f7c16;
+}
+
+
+/* Header */
 .header-section {
-    margin-top: 20px;
-    margin-bottom: 20px;
+    background-color: #313235;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.header-section h1 {
+    color: #1f7c16;
+    margin-top: 0px;
+}
+.header-section h3 {
+    color: #1f7c16;
 }
