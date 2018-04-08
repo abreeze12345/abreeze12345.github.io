@@ -1,9 +1,9 @@
 .brand {
     font-family: 'Press Start 2P', cursive;
-    color: green !important;
+    font-size = large;
 }
 
 .header-section {
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
