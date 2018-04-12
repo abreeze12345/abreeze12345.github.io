@@ -84,7 +84,14 @@ a:hover, a:visited, a:link, a:active
 }
 
 /* Past Work */
+.pastwork-section {
+    background-color: #1f7c16;
+}
 
+/* Social Media */
+.social-section {
+    background-color: #313235
+}
 
 /* Footer */
 .footer-section {
