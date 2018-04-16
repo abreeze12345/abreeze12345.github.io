@@ -19,6 +19,7 @@ body {
 }
 
 
+
 /* Disable Link Decoration */
 a:hover, a:visited, a:link, a:active
 {
@@ -27,7 +28,7 @@ a:hover, a:visited, a:link, a:active
 
 /* NavBar */
 
-@media only screen and (max-width: 856px) {
+@media only screen and (max-width: 930px) {
     .hidden {
         display: none;
     }
@@ -40,12 +41,20 @@ a:hover, a:visited, a:link, a:active
 }
 
 .navbar-section {
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     background-color: #313235;
 }
 
+.navbar-section a {
+    color: white;
+}
+
 .navbar-section a:hover {
+    color: white;
+}
+
+.header-section h3 {
     color: white;
 }
 
@@ -60,6 +69,25 @@ a:hover, a:visited, a:link, a:active
     color: #313235;
     margin-top: 0px;
 }
+
+.card-container {
+    perspective: 800px;
+}
+
+#card-1 {
+    transform-style: preserve-3d;
+    transition: transform 1s;
+
+    -webkit-transform-style: preserve-3d;
+    -webkit-transition: transform 1s;
+}
+
+#card-1 div {
+    backface-visibility: hidden;
+
+    -webkit-backface-visibility: hidden
+}
+
 
 /* Profile */
 .profile-section {
@@ -81,4 +109,9 @@ a:hover, a:visited, a:link, a:active
 .img-col  {
     padding-top: 20px;
     padding-bottom: 20px;
+}
+
+/* Social Section */
+.social-section {
+    background-color: #1f7c16;
 }
