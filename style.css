@@ -18,6 +18,15 @@ body {
     font-family: 'Do Hyeon', sans-serif;
 }
 
+/* Colors
+
+Crevice: #46221A
+Cloud Shadow: #693D3D
+Desert: #BA5536
+Red Clay: #A43820
+
+ */
+
 
 /* Disable Link Decoration */
 a:hover, a:visited, a:link, a:active
@@ -25,7 +34,7 @@ a:hover, a:visited, a:link, a:active
     text-decoration: none;
 }
 
-/* NavBar */
+/* Andrew Stringfellow */
 
 @media only screen and (max-width: 856px) {
     .hidden {
@@ -58,7 +67,7 @@ a:hover, a:visited, a:link, a:active
 }
 
 
-/* Header */
+/* About Me */
 .header-section {
     background-color: #1f7c16;
     padding-bottom:30px;
