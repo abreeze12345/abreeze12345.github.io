@@ -21,7 +21,6 @@ body {
 
 /* Andrew Stringfellow */
 .navbar-section {
-    height: 100vh;
     background-image: url("img/galaxy.jpg");
     background-size: cover;
     background-position-y: center;
@@ -31,6 +30,7 @@ body {
 .navbar-row {
     padding-top: 40px;
     padding-left: 30px;
+    visibility: hidden;
 }
 
 .navbar-list .list-group-item {
@@ -38,6 +38,10 @@ body {
     color: white;
     padding-left: 10px;
     padding-right: 10px;
+}
+
+.ufo-row {
+    height: 100vh;
 }
 
 /* About Me */

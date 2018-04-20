@@ -7,12 +7,19 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- jQuery and Plugins -->
-    <script src="jquery-2.1.4.min.js"></script>
+    <!-- jQuery  -->
+    <script src="js/jquery-3.3.1.min.js"></script>
 
     <!-- bootstrap import -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="css/animate.css">
+
+    <!-- AOS AnimateOnScroll -->
+    <script src="js/aos.js"></script>
+    <link rel="stylesheet" href="css/aos.css">
 
     <!-- fonts-->
     <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js"
@@ -29,7 +36,16 @@
 <body>
 
 <!-- Navbar -->
-<div class=" navbar-section container-fluid">
+<div class="navbar-section container-fluid">
+
+    <div class="row ufo-row align-items-center">
+        <div class="col text-center">
+            <div class="ufo-animation">
+                <img src="img/ufo.png" height="300px" width="auto"/>
+            </div>
+        </div>
+    </div>
+
     <div class="row navbar-row">
         <div class="col-8 col-sm-7 col-md-3 col-xl-2">
             <ul class="navbar-list list-group text-center">
@@ -43,13 +59,13 @@
 
 <!-- About Me -->
 <div class="header-section container-fluid">
-    <div class="row">
+    <div data-aos="fade" class="row">
         <div class="col text-center">
             <h1>about me</h1>
         </div>
     </div>
 
-    <div class="row">
+    <div data-aos="slide-left" class="row">
 
         <div class="col-sm-4 text-center">
 
@@ -96,7 +112,7 @@
 
 <!-- Profile -->
 <div class="profile-section container-fluid">
-    <div class="row align-items-center">
+    <div data-aos="slide-right" class="row align-items-center">
         <div class="col-md-5 text-center">
             <img src="img/portrait.PNG" class="img-thumbnail" alt="Profile Pic">
         </div>
@@ -110,6 +126,7 @@
             <p>Frameworks: Bootstrap, jQuery, WordPress</p>
         </div>
     </div>
+</div>
 </div>
 
 <!-- Past Work -->
