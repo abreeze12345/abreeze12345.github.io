@@ -30,6 +30,7 @@ body {
 .navbar-row {
     padding-top: 40px;
     padding-left: 30px;
+    position: absolute;
     visibility: hidden;
     height: 100vh;
 }
