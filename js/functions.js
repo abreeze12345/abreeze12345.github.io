@@ -7,4 +7,3 @@ $(document).ready(function () {
 
 
 //UFO animation
-$(".navbar-row").hide();
