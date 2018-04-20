@@ -31,6 +31,7 @@ body {
     padding-top: 40px;
     padding-left: 30px;
     visibility: hidden;
+    height: 100vh;
 }
 
 .navbar-list .list-group-item {
@@ -38,10 +39,6 @@ body {
     color: white;
     padding-left: 10px;
     padding-right: 10px;
-}
-
-.ufo-row {
-    height: 100vh;
 }
 
 /* About Me */
