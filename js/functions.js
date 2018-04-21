@@ -1,9 +1,5 @@
-//Initialize AnimateOnScroll
-$(document).ready(function () {
+//intialize AOS
+$(window).on("load", function() {
     AOS.init({
-        duration: 500
     });
 });
-
-
-//UFO animation

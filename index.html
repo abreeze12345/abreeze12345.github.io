@@ -36,14 +36,19 @@
 <body>
 
 <!-- Navbar -->
-<div class="navbar-section container-fluid">
+<div class="navbar-section container-fluid" style="position: relative">
 
-    <div class="row navbar-row align-items-center" style="position: relative;">
+    <div class="row navbar-row align-items-center">
+        <div class="col-3 col-lg-4"></div>
         <div class="col-6 col-lg-4 text-center">
-            <h1>Andrew Stringfellow</h1>
+            <div class="animated slideInDown">
+                <hr class="line" id="top-line">
+            </div>
+            <p style="font-size: 30px; color: white;" id="name">Andrew Stringfellow</p>
+            <hr class="line" id="bottom-line">
         </div>
     </div>
-    <div class="row navbar-row" style="position: absolute;">
+    <div class="row navbar-row row-overlay">
         <div class="col-8 col-sm-7 col-md-3 col-xl-2">
             <ul class="navbar-list list-group text-center">
                 <li class="list-group-item">Andrew Stringfellow</li>
