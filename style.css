@@ -1,8 +1,15 @@
-/* Colors
-        Pink: #43638a
-        Dark Purple: #43638a
-        Lighter Purple: #331751
- */
+/* Animation Speeds */
+.slow {
+    animation-duration: 5s;
+}
+
+.medium {
+    animation-duration: 3s;
+}
+
+.fast {
+    animation-duration: 1s;
+}
 
 /* Hidden...used for jQuery */
 .hidden {
@@ -54,6 +61,10 @@ body {
     background-position-x: right;
 }
 
+.navbar-section a {
+    cursor: pointer;
+}
+
 .navbar-top-row {
     padding-top: 40px;
     height: 20vh;
@@ -87,20 +98,13 @@ body {
     min-width: 160px;
 }
 
-.slow {
-    animation-duration: 5s;
-}
-
-.medium {
-    animation-duration: 3s;
-}
 /* About Me */
 .back {
     position: absolute;
 }
 
 .header-section {
-    background-color: #1f7c16;
+    background-color: #423b35;
     padding-bottom: 30px;
     padding-top: 30px;
     padding-left: 70px;
@@ -108,7 +112,7 @@ body {
 }
 
 .header-section h1, h3 {
-    color: #313235;
+    color: white;
     margin-top: 0px;
 }
 

@@ -6,9 +6,7 @@ $(document).ready(function () {
 });
 
 //Andrew Header Animation
-$(window).on("load", function() {
-    $(".hidden").removeClass("hidden");
-    $(".hidden").addClass("animated");
+$(window).on("load", function () {
     $("#name").addClass("fadeIn");
     $("#top-line").addClass("fadeIn");
     $("#bottom-line").addClass("fadeIn");
@@ -16,6 +14,18 @@ $(window).on("load", function() {
     $("#right-nav").addClass("fadeIn");
 });
 
-$(window).on("load", function() {
-    $("")
-})
+//GLOW effects
+$(window).on("load", function () {
+    $(".glow").addGlow({
+        radius: 200,
+        textColor: "#492484",
+        haloColor: "#492484",
+        duration: 200
+    });
+    $(".navbar-section li").addGlow();
+});
+
+//PanelSwitches
+$(document).ready(function() {
+    $()
+});
