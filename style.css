@@ -38,6 +38,7 @@ a:hover, a:visited, a:link, a:active {
 
 body {
     font-family: starJedi;
+    overflow: hidden;
 }
 
 /* Andrew Stringfellow */
@@ -125,10 +126,7 @@ body {
 
 .header-section {
     background-color: #423b35;
-    padding-bottom: 30px;
-    padding-top: 30px;
-    padding-left: 70px;
-    padding-right: 70px;
+    height: 50vh;
 }
 
 .header-section h1, h3 {
@@ -144,8 +142,7 @@ body {
 
 .profile-section {
     background-color: #313235;
-    padding-bottom: 30px;
-    padding-top: 30px;
+    height: 50vh;
 }
 
 .profile-section img {
