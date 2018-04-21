@@ -50,6 +50,20 @@ body {
     background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 350, from(white), to(transparent));
 }
 
+.name-col {
+    padding-top: 22vh;
+}
+
+.navbar-col-left {
+    padding-top: 5%;
+    padding-left: 15%;
+}
+
+.navbar-col-right {
+    padding-top: 5%;
+    padding-right: 15%;
+}
+
 .navbar-section {
     background-image: url("img/galaxy.jpg");
     background-size: cover;
@@ -58,25 +72,20 @@ body {
     height: 100vh;
 }
 
+.navbar-top-row {
+    height: 20vh;
+}
+
+.navbar-bottom-row {
+    height: 80vh;
+}
+
 .navbar-section li:hover {
     cursor: pointer;
 }
 
 .navbar-section h1:hover {
     cursor: default;
-}
-
-.navbar-top-row {
-    padding-top: 40px;
-    position: absolute; top: 0px; width: 100%;
-}
-
-.navbar-main-row {
-    height: 100vh;
-}
-
-.navbar-main-col {
-    height: 100vh;
 }
 
 
