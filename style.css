@@ -50,29 +50,33 @@ body {
     background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 350, from(white), to(transparent));
 }
 
-.name-col {
-    height: 80vh;
-}
-
 .navbar-section {
     background-image: url("img/galaxy.jpg");
     background-size: cover;
     background-position-y: center;
     background-position-x: right;
+    height: 100vh;
 }
 
 .navbar-section li:hover {
     cursor: pointer;
 }
 
-.navbar-top-row {
-    padding-top: 40px;
-    height: 20vh;
+.navbar-section h1:hover {
+    cursor: default;
 }
 
-.navbar-bottom-row {
-    height: 80vh;
-    padding-top: 22vh;
+.navbar-top-row {
+    padding-top: 40px;
+    position: absolute; top: 0px; width: 100%;
+}
+
+.navbar-main-row {
+    height: 100vh;
+}
+
+.navbar-main-col {
+    height: 100vh;
 }
 
 
@@ -96,6 +100,13 @@ body {
 .navbar-list {
     max-width: 250px;
     min-width: 160px;
+}
+
+.preserve {
+    transform-style: preserve-3d;
+    transform: translateX(0px);
+    transform: translateY(0px);
+    transform: translateZ(0px);
 }
 
 /* About Me */
