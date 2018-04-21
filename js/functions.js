@@ -5,5 +5,10 @@ $(document).ready(function () {
     });
 });
 
-
-//UFO animation
+$(window).on("load", function() {
+    $(".hidden").removeClass("hidden");
+    $(".hidden").addClass("animated");
+    $("#name").addClass("fadeIn");
+    $("#top-line").addClass("fadeIn");
+    $("#bottom-line").addClass("fadeIn");
+});
