@@ -77,8 +77,12 @@ body {
     height: 20vh;
 }
 
+.navbar-middle-row {
+    height: 60vh;
+}
+
 .navbar-bottom-row {
-    height: 80vh;
+    height: 20vh;
 }
 
 .navbar-section li:hover {
