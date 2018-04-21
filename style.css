@@ -79,6 +79,10 @@ body {
 .slow {
     animation-duration: 5s;
 }
+
+.medium {
+    animation-duration: 3s;
+}
 /* About Me */
 .back {
     position: absolute;
