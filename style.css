@@ -61,7 +61,7 @@ body {
     background-position-x: right;
 }
 
-.navbar-section a {
+.navbar-section li:hover {
     cursor: pointer;
 }
 

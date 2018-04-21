@@ -5,13 +5,15 @@ $(document).ready(function () {
     });
 });
 
+//hide elements on start
+$(document).ready(function() {
+    $(".header-animation").hide();
+});
+
 //Andrew Header Animation
 $(window).on("load", function () {
-    $("#name").addClass("fadeIn");
-    $("#top-line").addClass("fadeIn");
-    $("#bottom-line").addClass("fadeIn");
-    $("#left-nav").addClass("fadeIn");
-    $("#right-nav").addClass("fadeIn");
+    $(".header-animation").show();
+    $(".header-animation").addClass("fadeIn");
 });
 
 //GLOW effects
