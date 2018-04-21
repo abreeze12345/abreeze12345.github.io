@@ -4,6 +4,20 @@
         Lighter Purple: #331751
  */
 
+/* Hidden...used for jQuery */
+.hidden {
+    display: none;
+}
+
+/* Left and Right Align */
+.align-left {
+    text-align: left;
+}
+
+.align-right {
+    text-align: right;
+}
+
 /* Fonts */
 @font-face {
     font-family: starJedi;
@@ -20,6 +34,14 @@ body {
 }
 
 /* Andrew Stringfellow */
+.line {
+    border: none;
+    height: 1px;
+    /* Set the hr color */
+    color: white; /* old IE */
+    background-color: white; /* Modern Browsers */
+}
+
 .navbar-section {
     background-image: url("img/galaxy.jpg");
     background-size: cover;
@@ -29,37 +51,39 @@ body {
 
 .navbar-row {
     padding-top: 40px;
-    padding-left: 30px;
     height: 100vh;
 
 }
 
-.navbar-list .list-group-item {
+.navbar-list-left .list-group-item {
+    top: 0px;
+    left: 0px;
     background-color: transparent;
     color: white;
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
-.row-overlay {
-    position: absolute;
-    top: 0;
-    left:0;
-    z-index:0;
-    bottom:0;
-    right:0;
-    height:100%;
-}
-
-.line {
     border: none;
-    height: 1px;
-    /* Set the hr color */
-    color: white; /* old IE */
-    background-color: white; /* Modern Browsers */
 }
 
+.navbar-list-right .list-group-item {
+    top: 0px;
+    right: 0px;
+    background-color: transparent;
+    color: white;
+    border: none;
+}
+
+.navbar-list {
+    max-width: 250px;
+    min-width: 160px;
+}
+
+.slow {
+    animation-duration: 5s;
+}
 /* About Me */
+.back {
+    position: absolute;
+}
+
 .header-section {
     background-color: #1f7c16;
     padding-bottom: 30px;
@@ -73,11 +97,12 @@ body {
     margin-top: 0px;
 }
 
-.back {
-    position: absolute;
+/* Profile */
+.img-col {
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
-/* Profile */
 .profile-section {
     background-color: #313235;
     padding-bottom: 30px;
@@ -92,11 +117,6 @@ body {
 
 .profile-section p {
     color: white;
-}
-
-.img-col {
-    padding-top: 20px;
-    padding-bottom: 20px;
 }
 
 /* Social Section */
