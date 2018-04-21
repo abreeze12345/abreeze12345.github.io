@@ -12,8 +12,8 @@ $(window).on("load", function() {
     $("#name").addClass("fadeIn");
     $("#top-line").addClass("fadeIn");
     $("#bottom-line").addClass("fadeIn");
-    $("#left-nav").delay(3000).addClass("slideInLeft");
-    $("#right-nav").delay(3000).addClass("slideInRight");
+    $("#left-nav").addClass("fadeIn");
+    $("#right-nav").addClass("fadeIn");
 });
 
 $(window).on("load", function() {
