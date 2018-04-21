@@ -35,11 +35,16 @@ body {
 
 /* Andrew Stringfellow */
 .line {
-    border: none;
-    height: 1px;
-    /* Set the hr color */
-    color: white; /* old IE */
-    background-color: white; /* Modern Browsers */
+    display:block;
+    border:none;
+    color:black;
+    height:1px;
+    background:white;
+    background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 350, from(white), to(transparent));
+}
+
+.name-col {
+    height: 80vh;
 }
 
 .navbar-section {
@@ -49,11 +54,17 @@ body {
     background-position-x: right;
 }
 
-.navbar-row {
+.navbar-top-row {
     padding-top: 40px;
-    height: 100vh;
-
+    height: 20vh;
 }
+
+.navbar-bottom-row {
+    height: 80vh;
+    padding-top: 22vh;
+}
+
+
 
 .navbar-list-left .list-group-item {
     top: 0px;
