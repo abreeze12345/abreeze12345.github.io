@@ -1,3 +1,12 @@
+//Tilt Activation
+$(document).ready(function () {
+    if ($(window).width() > 769) {
+        $(".js-tilt").tilt({
+            maxTilt: 1.5
+        });
+    }
+});
+
 //Initialize AnimateOnScroll
 $(document).ready(function () {
     AOS.init({
@@ -6,7 +15,7 @@ $(document).ready(function () {
 });
 
 //hide elements on start
-$(document).ready(function() {
+$(document).ready(function () {
     $(".header-animation").hide();
 });
 
@@ -27,7 +36,3 @@ $(window).on("load", function () {
     $(".navbar-section li").addGlow();
 });
 
-//PanelSwitches
-$(document).ready(function() {
-    $()
-});
