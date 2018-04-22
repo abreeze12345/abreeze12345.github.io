@@ -51,10 +51,6 @@ body {
     background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 350, from(white), to(transparent));
 }
 
-.name-col {
-    padding-top: 22vh;
-}
-
 .navbar-col-top-left {
     padding-top: 25px;
     padding-left: 40px;
