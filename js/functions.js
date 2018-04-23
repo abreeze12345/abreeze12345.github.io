@@ -26,11 +26,12 @@ $(document).ready(function () {
 //GLOW effects
 $(window).on("load", function () {
     $(".glow").addGlow({
-        radius: 200,
+        radius: 800,
         textColor: "#492484",
         haloColor: "#492484",
-        duration: 200
+        duration: 120
     });
     $(".navbar-section li").addGlow();
+    $(".navbar-section a").addGlow();
 });
 
