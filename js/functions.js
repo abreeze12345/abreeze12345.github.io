@@ -35,3 +35,9 @@ $(window).on("load", function () {
     $(".navbar-section a").addGlow();
 });
 
+//About Me FLIP Activation
+$(window).on("load", function () {
+    $(".card").delay(5000).flip({
+        trigger: "hover"
+    });
+});

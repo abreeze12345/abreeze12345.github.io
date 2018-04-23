@@ -50,6 +50,7 @@ body {
 /* Disable Link Decoration */
 a:hover, a:visited, a:link, a:active {
     text-decoration: none;
+    color: white;
 }
 
 /* Andrew Stringfellow */
@@ -141,6 +142,9 @@ a:hover, a:visited, a:link, a:active {
     transform: translateY(0px);
     transform: translateZ(0px);
 }
+
+/* Contact Form */
+.
 
 /* About Me */
 .content-row {
