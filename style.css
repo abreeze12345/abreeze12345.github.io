@@ -1,3 +1,7 @@
+body {
+    position: relative;
+}
+
 /* Animation Speeds */
 .slow {
     animation-duration: 5s;
@@ -125,6 +129,7 @@ a:hover, a:visited, a:link, a:active {
 /* About Me */
 .header-section {
     background-color: #423b35;
+    min-height: 50vh;
 }
 
 .header-section h1, h3 {
@@ -140,6 +145,7 @@ a:hover, a:visited, a:link, a:active {
 
 .profile-section {
     background-color: #313235;
+    min-height: 50vh;
 }
 
 .profile-section img {
