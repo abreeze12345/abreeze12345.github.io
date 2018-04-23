@@ -2,7 +2,7 @@ body {
     position: relative;
 }
 
-/* Animation Speeds */
+/* Animation Speeds and Delays */
 .slow {
     animation-duration: 5s;
 }
@@ -13,6 +13,18 @@ body {
 
 .fast {
     animation-duration: 1s;
+}
+
+.short-delay {
+    animation-delay: 1s;
+}
+
+.medium-delay {
+    animation-delay: 3s;
+}
+
+.long-delay {
+    animation-delay: 5s;
 }
 
 /* Hidden...used for jQuery */
@@ -156,18 +168,15 @@ a:hover, a:visited, a:link, a:active {
 }
 
 /* Profile */
-.full-width {
-    width: 100%;
-    height: 100%;
-}
-
-.img-col {
+.img-padding {
     padding-top: 20px;
     padding-bottom: 20px;
 }
 
 .info-row {
     min-height: 50vh;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .profile-section {
