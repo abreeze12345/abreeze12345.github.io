@@ -22,16 +22,6 @@ $(document).ready(function () {
     });
 });
 
-//hide elements on start
-$(document).ready(function () {
-    $(".header-animation").hide();
-});
-
-//Andrew Header Animation
-$(window).on("load", function () {
-    $(".header-animation").show();
-    $(".header-animation").addClass("fadeIn");
-});
 
 //GLOW effects
 $(window).on("load", function () {

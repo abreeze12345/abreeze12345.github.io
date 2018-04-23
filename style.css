@@ -60,6 +60,10 @@ a:hover, a:visited, a:link, a:active {
     padding-right: 40px;
 }
 
+.navbar-col-top {
+    padding-top: 25px;
+}
+
 .navbar-col-bottom-left {
     padding-bottom: 25px;
     padding-left: 40px;
@@ -127,9 +131,14 @@ a:hover, a:visited, a:link, a:active {
 }
 
 /* About Me */
+.content-row {
+    padding-bottom: 40px;
+}
+
 .header-section {
     background-color: #423b35;
     min-height: 50vh;
+    padding-bottom: 20px;
 }
 
 .header-section h1, h3 {
@@ -137,15 +146,32 @@ a:hover, a:visited, a:link, a:active {
     margin-top: 0px;
 }
 
+.info-row {
+    min-height: 100%;
+}
+
+.title-row {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
 /* Profile */
+.full-width {
+    width: 100%;
+    height: 100%;
+}
+
 .img-col {
     padding-top: 20px;
     padding-bottom: 20px;
 }
 
+.info-row {
+    min-height: 50vh;
+}
+
 .profile-section {
     background-color: #313235;
-    min-height: 50vh;
 }
 
 .profile-section img {
