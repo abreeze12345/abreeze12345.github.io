@@ -36,11 +36,6 @@ a:hover, a:visited, a:link, a:active {
     text-decoration: none;
 }
 
-body {
-    font-family: starJedi;
-    overflow: hidden;
-}
-
 /* Andrew Stringfellow */
 .line {
     display:block;
@@ -99,8 +94,6 @@ body {
     cursor: default;
 }
 
-
-
 .navbar-list-left .list-group-item {
     top: 0px;
     left: 0px;
@@ -130,13 +123,8 @@ body {
 }
 
 /* About Me */
-.back {
-    position: absolute;
-}
-
 .header-section {
     background-color: #423b35;
-    height: 50vh;
 }
 
 .header-section h1, h3 {
@@ -152,7 +140,6 @@ body {
 
 .profile-section {
     background-color: #313235;
-    height: 50vh;
 }
 
 .profile-section img {
