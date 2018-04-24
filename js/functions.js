@@ -15,6 +15,14 @@ $(document).ready(function () {
     }
 });
 
+//Animation Deactivation for Mobile
+//Only specific animations
+$(document).ready(function () {
+    if (isMobile) {
+        $(".mob-anim-x").removeClass("animated");
+    }
+});
+
 //Initialize AnimateOnScroll
 $(document).ready(function () {
     AOS.init({
