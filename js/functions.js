@@ -31,13 +31,7 @@ $(window).on("load", function () {
         haloColor: "#492484",
         duration: 120
     });
+    $(".exit").addGlow();
     $(".navbar-section li").addGlow();
     $(".navbar-section a").addGlow();
-});
-
-//About Me FLIP Activation
-$(window).on("load", function () {
-    $(".card").delay(5000).flip({
-        trigger: "hover"
-    });
 });
