@@ -223,3 +223,14 @@ a:hover, a:visited, a:link, a:active {
     color: white;
 }
 
+/* Spin on Hover Animation */
+.spin {
+    border-radius: 50%;
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+    transition:         transform .8s ease-in-out;
+}
+.spin:hover {
+    -webkit-transform: rotate(270deg);
+    transform: rotate(270deg);
+}
+
