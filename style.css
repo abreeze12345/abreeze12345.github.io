@@ -149,7 +149,8 @@
 
 /* Past Work */
 .pastwork-section {
-    background-color: #1f7c16;
+    height: 100vh;
+    background-image: url("img/humanGalaxy.jpg");
 }
 
 /* Social Media */

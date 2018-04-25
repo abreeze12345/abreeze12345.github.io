@@ -4,8 +4,8 @@ var medium = 768; //min width for medium
 var large = 992; //min width for large
 
 //Change animation below large
-$(document).ready(function() {
-    if($(window).width() < large) {
+$(document).ready(function () {
+    if ($(window).width() < large) {
         $(".info-row").removeClass("fadeInDownBig");
         $(".info-row").addClass("fadeIn");
         $(".info-row").addClass("short-delay");
@@ -57,3 +57,20 @@ $(window).on("load", function () {
     $(".navbar-section li").addGlow();
     $(".navbar-section a").addGlow();
 });
+
+//Interactive Background Past Work
+$(document).ready(function () {
+    $(".bg").interactive_bg({
+        strength: 25,
+        scale: 1.05,
+        animationSpeed: "100ms",
+        contain: true,
+        wrapContent: false
+    });
+});
+$(window).resize(function() {
+    $(".bg > .ibg-bg").css({
+        width: $(window).outerWidth(),
+        height: $(window).outerHeight()
+    })
+})
