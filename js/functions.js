@@ -8,8 +8,7 @@ $(document).ready(function() {
     if($(window).width() < large) {
         $(".info-row").removeClass("fadeInDownBig");
         $(".info-row").addClass("fadeIn");
-        $(".title-row").removeClass("short-delay");
-        $(".icon-row").removeClass("short-delay");
+        $(".info-row").addClass("short-delay");
     }
 });
 
