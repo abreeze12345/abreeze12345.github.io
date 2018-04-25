@@ -1,3 +1,18 @@
+//Bootstrap Variables
+var small = 576; //min width for small
+var medium = 768; //min width for medium
+var large = 992; //min width for large
+
+//Change animation below large
+$(document).ready(function() {
+    if($(window).width() < large) {
+        $(".info-row").removeClass("fadeInDownBig");
+        $(".info-row").addClass("fadeIn");
+        $(".title-row").removeClass("short-delay");
+        $(".icon-row").removeClass("short-delay");
+    }
+});
+
 //Checks if device is mobile
 var isMobile = false; //initiate as false
 // device detection
