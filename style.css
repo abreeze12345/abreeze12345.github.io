@@ -23,13 +23,17 @@
 }
 
 .navbar-col-bottom-left {
-    padding-bottom: 25px;
-    padding-left: 40px;
+    padding-bottom: 40px;
+    padding-left: 60px;
 }
 
 .navbar-col-bottom-right {
-    padding-bottom: 25px;
-    padding-right: 40px;
+    padding-bottom: 40px;
+    padding-right: 60px;
+}
+
+.navbar-col-bottom-mid {
+    padding-bottom: 40px;
 }
 
 .navbar-section {
@@ -149,6 +153,10 @@
 
 /* Past Work */
 .pastwork-section {
+    height: 100vh;
+}
+
+.past-work-1 {
     height: 100vh;
     background-image: url("img/humanGalaxy.jpg");
 }

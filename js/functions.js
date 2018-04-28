@@ -20,15 +20,6 @@ if (/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elain
     isMobile = true;
 }
 
-//Tilt Activation
-$(document).ready(function () {
-    if (!isMobile) {
-        $(".js-tilt").tilt({
-            maxTilt: 1.5
-        });
-    }
-});
-
 //Animation Deactivation for Mobile
 //Only specific animations
 $(document).ready(function () {
@@ -47,30 +38,31 @@ $(document).ready(function () {
 
 //GLOW effects
 $(window).on("load", function () {
-    $(".glow").addGlow({
-        radius: 800,
-        textColor: "#492484",
-        haloColor: "#492484",
-        duration: 120
-    });
     $(".exit").addGlow();
     $(".navbar-section li").addGlow();
     $(".navbar-section a").addGlow();
 });
 
-//Interactive Background Past Work
+//Front Page Logo Bug Fix
 $(document).ready(function () {
-    $(".bg").interactive_bg({
-        strength: 25,
-        scale: 1.05,
-        animationSpeed: "100ms",
-        contain: true,
-        wrapContent: false
+    $(".logo-fix").hover(
+        function () {
+            $(".logo-fix").addClass("hvr-icon-grow-rotate");
+        }, function () {
+            $(".logo-fix").delay(2000).removeClass("hvr-icon-grow-rotate");
+        });
+});
+
+//Scroll Down
+$(document).ready(function () {
+    $("#arrow-down").click(function () {
+        $("html, body").animate({
+            scrollTop: $("#past-work").offset().top
+        }, 1500);
+    });
+    $("#past-work-button").click(function () {
+        $("html, body").animate({
+            scrollTop: $("#past-work").offset().top
+        }, 1500);
     });
 });
-$(window).resize(function() {
-    $(".bg > .ibg-bg").css({
-        width: $(window).outerWidth(),
-        height: $(window).outerHeight()
-    })
-})

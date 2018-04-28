@@ -43,54 +43,62 @@
 
 </head>
 
-<body style="font-family: starJedi; overflow: hidden;">
+<body style="font-family: starJedi;">
 
 <!-- Navbar -->
 <div class="navbar-section container-fluid">
-    <div class="js-tilt">
-        <div class="row navbar-top-row align-items-center preserve">
-            <div class="col-4 align-self-start navbar-col-top-left">
-                <ul class="navbar-list-left list-group align-left animated fadeIn medium">
-                    <li class="list-group-item left-align"><a href="about-me.html">About Me</a></li>
-                </ul>
-            </div>
-            <div class="col-4 align-self-start navbar-col-top">
-                <ul class="navbar-list-left list-group text-center animated fadeIn medium">
-                    <li class="list-group-item"><a href="past-work.html">Past Work</a></li>
-                </ul>
-            </div>
-            <div class="col-4 align-self-start navbar-col-top-right">
-                <ul class="navbar-list-right list-group align-right animated fadeIn medium">
-                    <li class="list-group-item"><a href="#" data-toggle="modal" data-target="#contactModal">Contact Me</a></li>
-                </ul>
-            </div>
+    <div class="row navbar-top-row align-items-center preserve">
+        <div class="col-4 align-self-start navbar-col-top-left">
+            <ul class="navbar-list-left list-group align-left animated fadeIn medium">
+                <li class="list-group-item left-align"><a href="about-me.html">About Me</a></li>
+            </ul>
+        </div>
+        <div class="col-4 align-self-start navbar-col-top">
+            <ul class="navbar-list-left list-group text-center animated fadeIn medium">
+                <li class="list-group-item"><a id="past-work-button">Past Work</a></li>
+            </ul>
+        </div>
+        <div class="col-4 align-self-start navbar-col-top-right">
+            <ul class="navbar-list-right list-group align-right animated fadeIn medium">
+                <li class="list-group-item"><a href="#" data-toggle="modal" data-target="#contactModal">Contact Me</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="row navbar-middle-row">
+        <div class="col align-self-center text-center">
+            <hr class="line glow animated fadeIn medium">
+            <h1 class="glow animated fadeIn slow" style="color: white;">Andrew Stringfellow</h1>
+            <hr class="line glow animated fadeIn medium">
+        </div>
+    </div>
+
+    <div class="row navbar-bottom-row align-items-center preserve animated fadeIn medium">
+        <div class="col-4 align-self-end navbar-col-bottom-left">
+            <a class="logo-fix" href="https://github.com/abreeze12345" target="_blank"><i
+                    class="fab fa-github hvr-icon hvr-grow-rotate" style="height: 25px; width: auto;"></i></a>
         </div>
 
-        <div class="row navbar-middle-row">
-            <div class="col align-self-center text-center">
-                <hr class="line glow animated fadeIn medium">
-                <h1 class="glow animated fadeIn slow" style="color: white;">Andrew Stringfellow</h1>
-                <hr class="line glow animated fadeIn medium">
-            </div>
+        <div class="col-4 align-self-end navbar-col-bottom-mid text-center">
+            <a class="hvr-icon-hang" id="arrow-down"><i class="fas fa-arrow-down hvr-icon"
+                                                        style="color: white;"></i></a>
         </div>
-
-        <div class="row navbar-bottom-row align-items-center preserve">
-            <div class="col-6 align-self-end navbar-col-bottom-left">
-                <ul class="navbar-list-left list-group align-left animated fadeIn medium">
-                    <li class="list-group-item left-align"><a class="hvr-icon-grow-rotate" href="https://github.com/abreeze12345" target="_blank"><i class="fab fa-github hvr-icon" style="height: 25px; width: auto;"></i></a></li>
-                </ul>
-            </div>
-            <div class="col-6 align-self-end navbar-col-bottom-right">
-                <ul class="navbar-list-right list-group align-right animated fadeIn medium">
-                    <li class="list-group-item"><a class="hvr-icon-grow-rotate" href="https://linkedin.com/in/andrewstringfellow" target="_blank"><i class="fab fa-linkedin-in hvr-icon-grow-rotate hvr-icon" style="height: 25px; width: auto;"></i></a></li>
-                </ul>
-            </div>
+        <div class="col-4 align-self-end navbar-col-bottom-right text-right">
+            <a class="logo-fix" href="https://linkedin.com/in/andrewstringfellow" target="_blank"><i
+                    class="fab fa-linkedin-in hvr-icon hvr-icon-grow-rotate" style="height: 25px; width: auto;"></i></a>
         </div>
-
     </div>
 </div>
 
-<div class="modal animated rotateInDownRight" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="contactModalLabel" aria-hidden="true">
+<!-- Past Work -->
+<div class="past-work-1 container-fluid" id="past-work">
+    <div class="row"></div>
+</div>
+
+<!-- Contact Form -->
+<div class="modal animated rotateInDownRight" id="contactModal" tabindex="0" role="dialog"
+     aria-labelledby="contactModalLabel" aria-hidden="true">
     <div class="modal-dialog align-self-center" role="document">
         <div class="modal-content">
             <div class="modal-header">
