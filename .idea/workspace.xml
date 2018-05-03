@@ -143,10 +143,10 @@
   <component name="PhpServers">
     <servers />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="22" />
-    <option name="width" value="1051" />
-    <option name="height" value="990" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-7" />
+    <option name="width" value="974" />
+    <option name="height" value="1087" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -373,12 +373,12 @@
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
           <ID>JavaScript-modules-diagram</ID>
-          <OriginalElement>$PROJECT_DIR$/index.html</OriginalElement>
+          <OriginalElement />
           <nodes>
-            <node x="" y="">$PROJECT_DIR$/js/functions.js</node>
-            <node x="" y="">$PROJECT_DIR$/index.html</node>
-            <node x="" y="">$PROJECT_DIR$/img/portrait.PNG</node>
-            <node x="" y="">$PROJECT_DIR$/style.css</node>
+            <node x="" y="" />
+            <node x="" y="" />
+            <node x="" y="" />
+            <node x="" y="" />
             <node x="" y="">https://fonts.googleapis.com/css?family=Do+Hyeon|Press+Start+2P</node>
             <node x="" y="">https://stackpath.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css</node>
             <node x="" y="">https://stackpath.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js</node>
@@ -602,12 +602,12 @@
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
           <ID>JavaScript-modules-diagram</ID>
-          <OriginalElement>$PROJECT_DIR$/index.html</OriginalElement>
+          <OriginalElement />
           <nodes>
-            <node x="" y="">$PROJECT_DIR$/js/functions.js</node>
-            <node x="" y="">$PROJECT_DIR$/index.html</node>
-            <node x="" y="">$PROJECT_DIR$/img/portrait.PNG</node>
-            <node x="" y="">$PROJECT_DIR$/style.css</node>
+            <node x="" y="" />
+            <node x="" y="" />
+            <node x="" y="" />
+            <node x="" y="" />
             <node x="" y="">https://fonts.googleapis.com/css?family=Do+Hyeon|Press+Start+2P</node>
             <node x="" y="">https://stackpath.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css</node>
             <node x="" y="">https://stackpath.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js</node>
