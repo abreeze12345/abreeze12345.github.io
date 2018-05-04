@@ -152,13 +152,31 @@
 }
 
 /* Past Work */
-.pastwork-section {
+.past-work {
     height: 100vh;
 }
 
 .past-work-1 {
-    height: 100vh;
-    background-image: url("img/humanGalaxy.jpg");
+    background-image: url("img/astronomy.jpg");
+    background-size: cover;
+    background-position-y: bottom;
+    background-position-x: center;
+}
+.past-work-2 {
+    background-image: url("img/astronomy-1.jpg");
+    background-size: cover;
+    background-position-y: center;
+}
+.past-work-3 {
+    background-image: url("img/night-sky.jpg");
+    background-size: cover;
+    background-position-y: center;
+    background-position-x: center;
+}
+
+.pw-1-row {
+    height: 100%;
+    vertical-align: middle;
 }
 
 /* Social Media */
@@ -243,3 +261,14 @@ a:hover, a:visited, a:link, a:active {
     transform: rotate(270deg);
 }
 
+/* Full Sized Image */
+.full-image {
+    height: 300px;
+    width: auto;
+    color: #292a50;
+}
+
+/* blurred image */
+.blurred {
+    filter: blur(1px);
+}

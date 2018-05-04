@@ -66,3 +66,10 @@ $(document).ready(function () {
         }, 1500);
     });
 });
+
+$(document).ready( function() {
+    $("#past-work-1").flip({
+        axis: 'x',
+        trigger: 'hover'
+    });
+});
