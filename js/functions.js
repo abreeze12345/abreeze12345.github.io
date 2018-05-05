@@ -67,9 +67,10 @@ $(document).ready(function () {
     });
 });
 
-$(document).ready( function() {
+//Flip Activate
+$(document).ready(function () {
     $("#past-work-1").flip({
-        axis: 'x',
-        trigger: 'hover'
+        axis: "x",
+        trigger: "hover"
     });
 });
