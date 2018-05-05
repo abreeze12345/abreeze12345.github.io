@@ -93,7 +93,9 @@
 }
 
 /* Contact Form */
-.
+.f-margin {
+    margin-bottom: 10px;
+}
 
 /* About Me */
 .content-row {

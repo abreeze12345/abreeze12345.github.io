@@ -107,7 +107,8 @@
                 <h1 style="color: white;">Seven Hills Capital Advisors</h1>
             </div>
             <div class="back">
-                <a href="http://sevenhills99.staging.wpengine.com/" target="_blank"><img src="img/sh-preview.png" class="full-image blurred"></a>
+                <a href="http://sevenhills99.staging.wpengine.com/" target="_blank"><img src="img/sh-preview.png"
+                                                                                         class="full-image blurred"></a>
             </div>
         </div>
     </div>
@@ -135,10 +136,37 @@
             </div>
             <div class="modal-body">
 
+                <form method="post" name="contactEmail" action="form-email.php">
+                    <div class="form-row">
+                        <div class="col-12">
+                            <label>Name</label>
+                        </div>
+                    </div>
+                    <div class="form-row f-margin">
+                        <div class="col-5">
+                            <input type="text" class="form-control" name="fName" placeholder="First name">
+                        </div>
+                        <div class="col-7">
+                            <input type="text" class="form-control" name="lName" placeholder="Last name">
+                        </div>
+                    </div>
+                    <div class="form-row f-margin">
+                        <div class="col-12">
+                            <label>Email address</label>
+                            <input type="email" class="form-control" name="email" placeholder="Enter email">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="col-12">
+                            <label>What can I do for you?</label>
+                            <textarea class="form-control" name="message" rows="3" placeholder="Enter message"></textarea>
+                        </div>
+                    </div>
+                </form>
+
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Save changes</button>
+                <button type="submit" class="btn btn-secondary">Submit</button>
             </div>
         </div>
     </div>
