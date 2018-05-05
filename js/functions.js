@@ -57,12 +57,12 @@ $(document).ready(function () {
 $(document).ready(function () {
     $("#arrow-down").click(function () {
         $("html, body").animate({
-            scrollTop: $("#past-work").offset().top
+            scrollTop: $("#past-work-1").offset().top
         }, 1500);
     });
     $("#past-work-button").click(function () {
         $("html, body").animate({
-            scrollTop: $("#past-work").offset().top
+            scrollTop: $("#past-work-1").offset().top
         }, 1500);
     });
 });
