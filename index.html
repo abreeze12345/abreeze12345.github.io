@@ -38,6 +38,9 @@
     <!-- Skrollr -->
     <script src="js/skrollr.js"></script>
 
+    <!-- Jotform -->
+    <script src="js/contact-form/jotform.js"></script>
+
     <!-- fonts-->
     <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js"
             integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl"
@@ -136,37 +139,40 @@
             </div>
             <div class="modal-body">
 
-                <form method="post" name="contactEmail" action="form-email.php">
+                <form action="https://submit.jotform.us/submit/81251337751151/" method="post" name="form_81251337751151" id="81251337751151" accept-charset="utf-8">
                     <div class="form-row">
                         <div class="col-12">
                             <label>Name</label>
                         </div>
                     </div>
                     <div class="form-row f-margin">
-                        <div class="col-5">
-                            <input type="text" class="form-control" name="fName" placeholder="First name">
+                        <div class="col-2">
+                            <input type="text" id="prefix_3" name="q3_fullName3[prefix]" class="form-control form-textbox" size="4" value="" data-component="prefix" required="" placeholder="Prefix"/>
                         </div>
-                        <div class="col-7">
-                            <input type="text" class="form-control" name="lName" placeholder="Last name">
+                        <div class="col-4">
+                            <input type="text" id="first_3" name="q3_fullName3[first]" class="form-control form-textbox validate[required]" size="10" value="" data-component="first" required="" placeholder="First Name"/>
+                        </div>
+                        <div class="col-6">
+                            <input type="text" id="last_3" name="q3_fullName3[last]" class="form-control form-textbox validate[required]" size="15" value="" data-component="last" required="" placeholder="Last Name"/>
                         </div>
                     </div>
                     <div class="form-row f-margin">
                         <div class="col-12">
                             <label>Email address</label>
-                            <input type="email" class="form-control" name="email" placeholder="Enter email">
+                            <input type="email" id="input_4" name="q4_email4" class="form-control form-textbox validate[required, Email]" size="30" value="" placeholder="myname@example.com" data-component="email" required="" />
                         </div>
                     </div>
                     <div class="form-row">
                         <div class="col-12">
                             <label>What can I do for you?</label>
-                            <textarea class="form-control" name="message" rows="3" placeholder="Enter message"></textarea>
+                            <textarea id="input_12" class="form-control form-textarea" name="q12_howCan" rows="3" data-component="textarea"></textarea>
                         </div>
                     </div>
                 </form>
 
             </div>
             <div class="modal-footer">
-                <button type="submit" class="btn btn-secondary">Submit</button>
+                <button id="input_2" type="submit" class="btn btn-secondary form-submit-button" data-component="button">Submit</button>
             </div>
         </div>
     </div>
