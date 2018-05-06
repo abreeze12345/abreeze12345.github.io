@@ -139,7 +139,7 @@
             </div>
             <div class="modal-body">
 
-                <form action="https://formspree.io/abreezemail@gmail.com" method="post">
+                <form method="POST" action="//formspree.io/abreezemail@gmail.com">
                     <div class="form-row">
                         <div class="col-12">
                             <label>Name</label>
@@ -159,7 +159,8 @@
                     <div class="form-row f-margin">
                         <div class="col-12">
                             <label>Email address</label>
-                            <input class="form-control" type="email" name="email" placeholder="myname@example.com" />
+                            <input class="form-control" type="email" name="_replyto" placeholder="myname@example.com"/>
+                            <input type="text" name="_gotcha" style="display:none" />
                         </div>
                     </div>
                     <div class="form-row">
@@ -168,17 +169,16 @@
                             <textarea class="form-control" name="message" rows="3"></textarea>
                         </div>
                     </div>
+                    <div class="modal-footer">
+                        <input class="btn btn-secondary" type="submit" value="Send">
+                        <input type="hidden" name="_next" value="abreeze12345.github.io" />
+                    </div>
                 </form>
 
-            </div>
-            <div class="modal-footer">
-                <button id="input_2" type="submit" class="btn btn-secondary form-submit-button" data-component="button">Submit</button>
             </div>
         </div>
     </div>
 </div>
-
-
 
 
 <!-- jQuery Tilt Import -->
