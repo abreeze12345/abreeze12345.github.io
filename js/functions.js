@@ -66,11 +66,3 @@ $(document).ready(function () {
         }, 1500);
     });
 });
-
-//Flip Activate
-$(document).ready(function () {
-    $("#past-work-1").flip({
-        axis: "x",
-        trigger: "hover"
-    });
-});

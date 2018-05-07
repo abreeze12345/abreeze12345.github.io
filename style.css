@@ -154,6 +154,10 @@
 }
 
 /* Past Work */
+.overlay {
+    position: absolute;
+}
+
 .past-work {
     height: 100vh;
 }
@@ -265,7 +269,7 @@ a:hover, a:visited, a:link, a:active {
 
 /* Full Sized Image */
 .full-image {
-    height: 300px;
+    height: 500px;
     width: auto;
     color: #292a50;
 }
