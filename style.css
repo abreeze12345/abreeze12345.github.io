@@ -269,9 +269,8 @@ a:hover, a:visited, a:link, a:active {
 
 /* Full Sized Image */
 .full-image {
-    height: 500px;
-    width: auto;
-    color: #292a50;
+    height: auto;
+    width: 70%;
 }
 
 /* blurred image */
