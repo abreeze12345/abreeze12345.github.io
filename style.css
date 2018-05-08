@@ -45,15 +45,15 @@
 }
 
 .navbar-top-row {
-    height: 20vh;
+    height: 20%;
 }
 
 .navbar-middle-row {
-    height: 60vh;
+    height: 60%;
 }
 
 .navbar-bottom-row {
-    height: 20vh;
+    height: 20%;
 }
 
 .navbar-section li:hover {
