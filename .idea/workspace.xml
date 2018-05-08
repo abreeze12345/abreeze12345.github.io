@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="46a49ecc-ad1e-4efd-a2d7-1daf034d9168" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/js/functions.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/functions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/about-me.html" beforeDir="false" afterPath="$PROJECT_DIR$/about-me.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,11 +16,11 @@
       <content type="file-editors">
         <state>
           <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-            <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+            <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
               <entry file="file://$PROJECT_DIR$/index.html">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="160">
-                    <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+                  <state relative-caret-position="420">
+                    <caret line="134" column="35" lean-forward="true" selection-start-line="134" selection-start-column="35" selection-end-line="134" selection-end-column="35" />
                     <folding>
                       <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                       <element signature="n#style#0;n#h1#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -28,6 +28,15 @@
                       <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                       <element signature="n#style#0;n#input#1;n#div#0;n#div#2;n#form#0;n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                     </folding>
+                  </state>
+                </provider>
+              </entry>
+            </file>
+            <file leaf-file-name="about-me.html" pinned="false" current-in-tab="true">
+              <entry file="file://$PROJECT_DIR$/about-me.html">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="367">
+                    <caret line="101" lean-forward="true" selection-start-line="101" selection-end-line="101" />
                   </state>
                 </provider>
               </entry>
@@ -51,8 +60,8 @@
       <file leaf-file-name="functions.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/functions.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="773">
-              <caret line="67" column="3" selection-start-line="67" selection-start-column="3" selection-end-line="67" selection-end-column="3" />
+            <state relative-caret-position="465">
+              <caret line="31" column="31" lean-forward="true" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -107,6 +116,7 @@
       <find>past work</find>
       <find>full-image</find>
       <find>past-work</find>
+      <find>mob-an</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -119,7 +129,6 @@
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/css/animate.css" />
         <option value="$PROJECT_DIR$/other.html" />
-        <option value="$PROJECT_DIR$/about-me.html" />
         <option value="$PROJECT_DIR$/past-work.html" />
         <option value="$PROJECT_DIR$/../../Seven Hills Logo.css" />
         <option value="$PROJECT_DIR$/css/sh-logo/sh-logo.css" />
@@ -129,6 +138,7 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/style.css" />
         <option value="$PROJECT_DIR$/js/functions.js" />
+        <option value="$PROJECT_DIR$/about-me.html" />
       </list>
     </option>
   </component>
@@ -323,12 +333,12 @@
       <workItem from="1525553947087" duration="8494000" />
       <workItem from="1525588545479" duration="1000" />
       <workItem from="1525632038821" duration="6039000" />
-      <workItem from="1525811853274" duration="3098000" />
+      <workItem from="1525811853274" duration="3186000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="111110000" />
+    <option name="totallyTimeSpent" value="111198000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="22" width="840" height="987" extended-state="0" />
@@ -644,13 +654,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../../Seven Hills Logo.css" />
     <entry file="file://$PROJECT_DIR$/css/sh-logo/sh-logo.css" />
-    <entry file="file://$PROJECT_DIR$/about-me.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="50" selection-start-line="50" selection-end-line="50" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Downloads/Professional_Development_Workshop_Registration_Form_81251337751151_source/Professional_Development_Workshop_Registration_Form.html" />
     <entry file="file://$USER_HOME$/Downloads/Professional_Development_Workshop_Registration_Form_81251337751151_source (1)/Professional_Development_Workshop_Registration_Form.html" />
     <entry file="file://$PROJECT_DIR$/js/contact-form/calendarview.js">
@@ -669,10 +672,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/form-email.php" />
     <entry file="file://$USER_HOME$/Downloads/Professional_Development_Workshop_Registration_Form_81251337751151_source (3)/Professional_Development_Workshop_Registration_Form.html" />
+    <entry file="file://$PROJECT_DIR$/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="535">
+          <caret line="190" column="17" selection-start-line="190" selection-start-column="17" selection-end-line="190" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/functions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="31" lean-forward="true" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+        <state relative-caret-position="420">
+          <caret line="134" column="35" lean-forward="true" selection-start-line="134" selection-start-column="35" selection-end-line="134" selection-end-column="35" />
           <folding>
             <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h1#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -683,17 +700,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/style.css">
+    <entry file="file://$PROJECT_DIR$/about-me.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="535">
-          <caret line="190" column="17" selection-start-line="190" selection-start-column="17" selection-end-line="190" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/functions.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="773">
-          <caret line="67" column="3" selection-start-line="67" selection-start-column="3" selection-end-line="67" selection-end-column="3" />
+        <state relative-caret-position="367">
+          <caret line="101" lean-forward="true" selection-start-line="101" selection-end-line="101" />
         </state>
       </provider>
     </entry>
