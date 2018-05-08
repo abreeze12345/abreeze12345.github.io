@@ -66,3 +66,14 @@ $(document).ready(function () {
         }, 1500);
     });
 });
+
+
+$(document).ready(function() {
+    $("#pw-1-link").hide();
+
+    if($("#pw-1-image").is(":visible")) {
+        $("#pw-1-link").fadeIn();
+    } else {
+        $("#pw-1-link").fadeOut();
+    }
+});

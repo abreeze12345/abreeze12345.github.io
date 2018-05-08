@@ -180,9 +180,15 @@
     background-position-x: center;
 }
 
-.pw-1-row {
+.pw-row {
     height: 100%;
     vertical-align: middle;
+}
+
+.pw-text {
+    color: black;
+    font-size: 20px;
+    margin-top: 20px;
 }
 
 /* Social Media */
@@ -270,7 +276,7 @@ a:hover, a:visited, a:link, a:active {
 /* Full Sized Image */
 .full-image {
     height: auto;
-    width: 70%;
+    width: 90%;
 }
 
 /* blurred image */
