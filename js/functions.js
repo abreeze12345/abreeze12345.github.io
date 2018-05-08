@@ -20,14 +20,6 @@ if (/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elain
     isMobile = true;
 }
 
-//Animation Deactivation for Mobile
-//Only specific animations
-$(document).ready(function () {
-    if (isMobile) {
-        $(".mob-anim-x").removeClass("animated");
-    }
-});
-
 //Initialize AnimateOnScroll
 $(document).ready(function () {
     AOS.init({

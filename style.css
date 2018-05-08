@@ -281,5 +281,5 @@ a:hover, a:visited, a:link, a:active {
 
 /* blurred image */
 .blurred {
-    filter: blur(1px);
+    filter: blur(4px);
 }
