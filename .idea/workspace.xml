@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="46a49ecc-ad1e-4efd-a2d7-1daf034d9168" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/LICENSES" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/contact-form/calendarview.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/contact-form/jotform.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/contact-form/location.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/contact-form/protoplus-ui-form.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/contact-form/protoplus.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/contact-form/prototype.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/contact-form/vendor/json2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/desktop.ini" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -35,8 +25,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="54" column="38" selection-start-line="54" selection-start-column="38" selection-end-line="54" selection-end-column="38" />
+            <state relative-caret-position="242">
+              <caret line="59" column="79" lean-forward="true" selection-start-line="59" selection-start-column="79" selection-end-line="59" selection-end-column="79" />
             </state>
           </provider>
         </entry>
@@ -294,12 +284,12 @@
       <workItem from="1525811853274" duration="4274000" />
       <workItem from="1525889583938" duration="9000" />
       <workItem from="1525982799633" duration="498000" />
-      <workItem from="1526006677166" duration="188000" />
+      <workItem from="1526006677166" duration="304000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="112981000" />
+    <option name="totallyTimeSpent" value="113097000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1680" height="987" extended-state="0" />
@@ -568,8 +558,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="54" column="38" selection-start-line="54" selection-start-column="38" selection-end-line="54" selection-end-column="38" />
+        <state relative-caret-position="242">
+          <caret line="59" column="79" lean-forward="true" selection-start-line="59" selection-start-column="79" selection-end-line="59" selection-end-column="79" />
         </state>
       </provider>
     </entry>
