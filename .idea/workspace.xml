@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="46a49ecc-ad1e-4efd-a2d7-1daf034d9168" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,8 +17,8 @@
       <file leaf-file-name="hover-min.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/hover-min.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="557">
-              <caret line="8" column="5946" lean-forward="true" selection-start-line="8" selection-start-column="5946" selection-end-line="8" selection-end-column="5946" />
+            <state relative-caret-position="195">
+              <caret line="8" column="5946" selection-start-line="8" selection-start-column="5946" selection-end-line="8" selection-end-column="5946" />
             </state>
           </provider>
         </entry>
@@ -25,8 +26,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="59" column="79" lean-forward="true" selection-start-line="59" selection-start-column="79" selection-end-line="59" selection-end-column="79" />
+            <state relative-caret-position="566">
+              <caret line="85" column="10" lean-forward="true" selection-start-line="85" selection-start-column="10" selection-end-line="85" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -284,16 +285,16 @@
       <workItem from="1525811853274" duration="4274000" />
       <workItem from="1525889583938" duration="9000" />
       <workItem from="1525982799633" duration="498000" />
-      <workItem from="1526006677166" duration="304000" />
+      <workItem from="1526006677166" duration="664000" />
+      <workItem from="1526011297172" duration="76000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="113097000" />
+    <option name="totallyTimeSpent" value="113533000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1680" height="987" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21904762" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -328,6 +329,20 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/css/hover-min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="8" column="5946" lean-forward="true" selection-start-line="8" selection-start-column="5946" selection-end-line="8" selection-end-column="5946" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1005">
+          <caret line="67" column="57" lean-forward="true" selection-start-line="67" selection-start-column="57" selection-end-line="68" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/hover-min.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -546,20 +561,17 @@
         <state relative-caret-position="-514" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/jquery.flip.min.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/hover-min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="557">
-          <caret line="8" column="5946" lean-forward="true" selection-start-line="8" selection-start-column="5946" selection-end-line="8" selection-end-column="5946" />
+        <state relative-caret-position="195">
+          <caret line="8" column="5946" selection-start-line="8" selection-start-column="5946" selection-end-line="8" selection-end-column="5946" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="59" column="79" lean-forward="true" selection-start-line="59" selection-start-column="79" selection-end-line="59" selection-end-column="79" />
+        <state relative-caret-position="566">
+          <caret line="85" column="10" lean-forward="true" selection-start-line="85" selection-start-column="10" selection-end-line="85" selection-end-column="10" />
         </state>
       </provider>
     </entry>
